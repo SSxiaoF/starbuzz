@@ -16,24 +16,19 @@ body {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
   padding:          15px;
-  margin:0px 330px 10px 10px ;
-  
-  width: 420px;
-  float: left;
+  vertical-align:   top;
   
 }
 
 #sidebar {
-  display: table-cell;
+  display:          table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  vertical-align: top;
-  position: absolute;
-  top: 123px;
-  right: 570px;
-  width: 290px;
-  height: 591px;
+  vertical-align:   top;
+
+  
+
 
 }
 
@@ -72,28 +67,43 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 #allcontent {
-  width: 800px;
+
  padding-top: 5px;
  padding-bottom: 5px;
  background-color: #675c47;;
- margin-left: auto;
- margin-right: auto;
+
 }
 
-div#tablecontainer {
+div#tableContainer {
   display: table;
 }
-div#tablerow {
+div#tableRow {
   display: table-row;
 }
 
-#tablecontainer {
+#tableContainer {
   display: table;
   border-spacing: 10px;
 }
-#tablerow {
+#tableRow {
   display: table-row;
 }
-#xiangdui {
- position: relative;
+#drinks {
+  display:table-cell;
+  background-color: #efe5d0;
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
+}
+.banner-left {
+  width: 240px;
+  height: 108px;
+  background-image: url(./images/header.gif);
+}
+.banner-right {
+  width: 260px;
+  height: 108px;
+  background-image: url(./images/header.gif);
+  background-position-x: -530px;
+  float: right;
 }
