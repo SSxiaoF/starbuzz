@@ -72,6 +72,7 @@ a:visited {
  padding-bottom: 5px;
  background-color: #675c47;;
 
+
 }
 
 div#tableContainer {
@@ -106,4 +107,37 @@ div#tableRow {
   background-image: url(./images/header.gif);
   background-position-x: -530px;
   float: right;
+}
+#奖杯 {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+}
+
+#coupon {
+position: fixed;
+top: 350px;
+left: -250px;
+animation:showtime 1.5s
+
+}
+
+#coupon a {
+border: none;
+}
+
+
+@keyframes showtime 
+{
+from {left: -200px;}
+10% {left:-180px;}
+20% {left:-160px}
+30% {left:-140px;}
+40% {left:-120px;}
+50% {left:-100px;}
+60% {left:-80px;}
+70% {left:-60px;}
+80% {left:-40px;}
+90% {left:-20px;}
+to {left: 0px;}
 }
